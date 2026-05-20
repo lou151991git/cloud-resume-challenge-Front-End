@@ -1,35 +1,7 @@
 {{ define "main" }}
 
-<h1>Louis Nguyen</h1>
+{{ .Content }}
 
-<p>Cloud Engineer focused on AWS, CI/CD and Serverless Architecture.</p>
-
-<h2>Visitor Counter</h2>
-
-<div>
-    Visitor Count:
-    <span id="visitor-count">Loading...</span>
-</div>
-
-<script>
-
-async function updateCounter() {
-
-    await fetch("https://nlqsbyxduf.execute-api.us-east-1.amazonaws.com/Prod/put")
-
-    const response = await fetch("https://nlqsbyxduf.execute-api.us-east-1.amazonaws.com/Prod/get")
-
-    const data = await response.json()
-
-    document.getElementById("visitor-count").innerText = data.count
-}
-
-updateCounter()
-
-</script>
+<script src="/js/counter.js"></script>
 
 {{ end }}
-
-
-
-

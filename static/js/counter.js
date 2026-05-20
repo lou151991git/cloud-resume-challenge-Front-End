@@ -1,0 +1,12 @@
+async function updateCounter() {
+
+    await fetch("https://nlqsbyxduf.execute-api.us-east-1.amazonaws.com/Prod/put")
+
+    const response = await fetch("https://nlqsbyxduf.execute-api.us-east-1.amazonaws.com/Prod/get")
+
+    const data = await response.json()
+
+    document.getElementById("visitor-count").innerText = data.count
+}
+
+updateCounter()

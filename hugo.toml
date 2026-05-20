@@ -2,3 +2,8 @@ baseURL = "https://louisnguyencloud.com/"
 defaultContentLanguage = "en"
 title = "Louis Nguyen"
 theme = "hugo-theme-console"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
