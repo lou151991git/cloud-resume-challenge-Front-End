@@ -1,0 +1,16 @@
+baseURL = "http://localhost:1313/"
+defaultContentLanguage = "en"
+title = "Louis Nguyen"
+theme = "hugo-theme-console"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+
+[[menu.main]]
+name = "Projects"
+url = "/projects/"
+
+[[menu.main]]
+name = "About"
+url = "/about/"

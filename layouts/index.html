@@ -1,5 +1,16 @@
-<html>
-<head>
+{{ define "main" }}
+
+<h1>Louis Nguyen</h1>
+
+<p>Cloud Engineer focused on AWS, CI/CD and Serverless Architecture.</p>
+
+<h2>Visitor Counter</h2>
+
+<div>
+    Visitor Count:
+    <span id="visitor-count">Loading...</span>
+</div>
+
 <script>
 
 async function updateCounter() {
@@ -16,20 +27,5 @@ async function updateCounter() {
 updateCounter()
 
 </script>
-    
-    <style>
-            p {
-                color: red;
-            }
-    </style>
-</head>
 
-<body> 
-    <p>
-     <div>
-  Visitor Count: <span id="visitor-count">Loading...</span>
-</div>
-    </p>
-</body>
-
-</html>
+{{ end }}
