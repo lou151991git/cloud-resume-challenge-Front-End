@@ -16,7 +16,6 @@ Cloud Engineer focused on:
 - Infrastructure as Code
 
 ## Visitor Counter
-
 <div>
 Visitor Count: <span id="visitor-count">Loading...</span>
 </div>
