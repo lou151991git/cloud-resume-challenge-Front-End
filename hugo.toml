@@ -9,16 +9,22 @@ theme = "hugo-theme-console"
       unsafe = true
 
 [[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
+  name = "About"
+  url = "#about"
+  weight = 1
 
 [[menu.main]]
-name = "Certifications"
-url = "/certifications/"
-weight = 2
+  name = "Certifications"
+  url = "#certifications"
+  weight = 2
 
 [[menu.main]]
-name = "Projects"
-url = "/projects/"
-weight = 3
+  name = "Projects"
+  url = "#projects"
+  weight = 3
+
+[[menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 4
+
