@@ -76,7 +76,7 @@ Designed and deployed a fully serverless cloud resume website hosted on AWS usin
 
 <div class="tech-stack">
 
-Terraform • AWS Lambda • API Gateway • DynamoDB • GitHub Actions
+AWS SAM • AWS Lambda • API Gateway • DynamoDB • GitHub Actions
 
 </div>
 
