@@ -65,6 +65,24 @@ body.terminal {
     text-decoration: underline;
 }
 
+
+
+body.terminal {
+    background-color: #fafafa !important;
+    color: #222 !important;
+}
+
+body.terminal h1,
+body.terminal h2,
+body.terminal h3,
+body.terminal h4,
+body.terminal p,
+body.terminal li {
+    color: #222 !important;
+}
+
+/* MOBILE RESPONSIVE */
+
 @media (max-width: 768px) {
 
     .project-card {
